@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="All Test Suite">
+    <test name="Test1">
+        <classes>
+            <class name="Test1DreliSkidka"></class>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="Test2Perforatory"></class>
+        </classes>
+    </test>
+
+    <test name="Test3">
+        <classes>
+            <class name="Test3Bolgarki"></class>
+        </classes>
+
+    </test>
+
+  <test name="Test4">
+      <classes>
+          <class name="Test4Shurupoverty"></class>
+      </classes>
+
+
+  </test>
+
+</suite>

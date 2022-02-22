@@ -19,7 +19,7 @@ public class Test3Bolgarki {
         driver.get("https://stylus.ua/");
         driver.manage().window().maximize();
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         //Katalog click
         driver.findElement(By.xpath("//*[@id=\"header_catalog\"]")).click();
